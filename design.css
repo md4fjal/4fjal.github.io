@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'josefin sans', sans-serif;
+}
+
+:root {
+    --tecolor: rgba(242, 245, 239, 0.829);
+    --pcolor: #ea1538;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("kp3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.logo {
+    font-size: 28px;
+    color: var(--tecolor);
+    transition: 1s;
+}
+
+.logo:hover {
+    transform: scale(1.6);
+}
+
+span {
+    color: var(--pcolor);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: var(--tecolor);
+    text-decoration: none;
+    font-weight: bold;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    color: var(--pcolor);
+}
+
+button {
+    border: none;
+    /* background-color: #ea1538; */
+    border: 2px solid var(--pcolor);
+    background: transparent;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: var(--tecolor);
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    /* border: 3px solid orange; */
+    margin-top: 90px;
+    color: var(--tecolor);
+}
+
+.box {
+    width: 33%;
+    height: 250px;
+    /* border: 3px solid #fff; */
+    text-align: center;
+    background: transparent;
+    padding: 45px;
+    border: 1px solid var(--tecolor);
+    border-top: none;
+    border-bottom: none;
+}
+
+#box1 {
+    border-left: none;
+}
+
+#box3 {
+    border-right: none;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--pcolor);
+}
+
+.btn_dcv {
+    margin: 80px 80px;
+
+}
+
+.imgcont {
+    /* background-color: rgb(45, 45, 46); */
+    display: flex;
+    padding-top: 10px;
+}
+
+.kp img {
+    width: 250px;
+    transition: 1s;
+    padding: 20px;
+}
+
+.kp img:hover {
+    transform: scale(1.9);
+}
+
+.blbx {
+    padding-top: 5px;
+    color: var(--tecolor);
+    font-size: 20px;
+}
+
+.blbx p {
+    padding: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background: var(--tecolor);
+
+}
+
+.fcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.sobu {
+    font-size: 35px;
+    top: 50%;
+    left: 50%;
+    margin: 34px;
+    transition: 1s;
+    border-radius: 50%;
+}
+
+.sobu:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#insta a {
+    color: #c32aa3;
+}
+
+#twit a {
+    color: #1da1f2;
+}
+
+#yt a {
+    color: #ff0000;
+}
+
+#link a {
+    color: #0a66c2;
+}
+
+#git a {
+    color: #4078c0;
+}
+
+.edu {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 250px;
+    /* border: 3px solid var(--tecolor); */
+    color: var(--tecolor);
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.edu h2 {
+    color: var(--tecolor);
+}
+
+.edu1 {
+    border: 2px solid var(--tecolor);
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    margin-top: 70px;
+    padding: 20px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#clg {
+    border-right: none;
+}
+
+.edu h3 {
+    color: var(--pcolor);
+}
+
+.ame {
+    color: var(--tecolor);
+    /* border: 2px solid var(--tecolor); */
+    width: 100%;
+    height: 150px;
+    padding: 60px;
+    font-size: 40px;
+    margin-top: 10px;
+    line-height: 70px;
+}
+
+.techcon {
+    display: flex;
+    color: var(--tecolor);
+    /* border: 2px solid var(--tecolor); */
+    width: 100%;
+    height: 350px;
+}
+
+.tech {
+    margin-top: 70px;
+    width: 50%;
+    border: 2px solid var(--tecolor);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.tech h3 {
+    color: var(--pcolor);
+    font-size: 25px;
+    text-align: center;
+}
+
+#tech1 {
+    border-right: none;
+    padding-left: 200px;
+}
+
+.tech li {
+    list-style: none;
+    margin: 20px 30px;
+    padding-left: 160px;
+}
+.serv {
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    margin-top: 70px;
+    border: 2px solid var(--tecolor);
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 15px var(--pcolor), 2px 2px 15px var(--pcolor);
+    transition: 1s;
+}
+.serv:hover {
+    transform: scale(1.1);
+    z-index: -1;
+}
+.serv p {
+    color: var(--tecolor);
+    font-size: 40px;
+}
